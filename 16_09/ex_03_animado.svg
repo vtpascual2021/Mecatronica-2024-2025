@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- 
+    Para animar una figura, se necesitan los siguientes atributos
+    NOTA: en este caso la figura es un poligono, que se construye
+          con una secuencia de puntos (como Multilinea)
+  -->
+  <polygon points="10,10 100,10 50,150" fill="blue" stroke="black">
+
+  <!-- 
+    * Atributo a animar: Coordenada x
+    * Animar desde el principio: begin="0s"
+    * Duracion de la animacion: dur="2s" (2 segundos)
+    * cx varia desde 50 a 200
+    * Repetir indefinidamente 
+  -->
+    <animate
+      attributeName="points"
+      begin="0s"
+      dur="2s"
+      from="10"
+      to="200"
+      repeatCount="indefinite" />
+  </polygon>
+</svg> 

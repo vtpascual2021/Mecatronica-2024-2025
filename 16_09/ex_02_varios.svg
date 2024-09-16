@@ -1,0 +1,28 @@
+<svg height="1000" width="1000" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    Dibujar un círculo amarillo 
+    Atributos:                   
+    * cx,cy: Centro del circulo  
+    * r: Radio                   
+  -->
+  <circle cx="50" cy="50" r="45" fill="yellow" />
+
+  <!--
+    También se pueden representar otras figuras como: 
+    - Elipse: 
+      * cx,cy: Centro de la elipse
+      * rx: Radio horizontal
+      * ry: Radio vertical
+    - Recta:
+      * x1,y1: Punto inicial
+      * x2,y2: Punto final 
+      * Atributos de estilo:
+      * stroke : Color del trazo
+    - Multilinea:
+      * points: Secuencia de puntos x,y por las que pasa la linea
+    -->
+  <ellipse rx="100" ry="50" cx="120" cy="180" fill="orange"/>
+  <line x1="300" y1="0" x2="0" y2="160" stroke="red" />
+  <polyline points="10,10 500,10 450,300 10,200" fill="none" stroke="black" />
+
+</svg> 
