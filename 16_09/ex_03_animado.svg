@@ -5,7 +5,7 @@
     NOTA: en este caso la figura es un poligono, que se construye
           con una secuencia de puntos (como Multilinea)
   -->
-  <polygon points="10,10 100,10 50,150" fill="blue" stroke="black">
+  <circle cx="50" cy="50" r="45" fill="brown" >
 
   <!-- 
     * Atributo a animar: Coordenada x
@@ -15,11 +15,12 @@
     * Repetir indefinidamente 
   -->
     <animate
-      attributeName="points"
+      attributeName="cx"
       begin="0s"
-      dur="2s"
+      dur="3s"
       from="10"
-      to="200"
+      to="500"
       repeatCount="indefinite" />
-  </polygon>
+  </circle>
+  <text x="200" y="170" fill="green">¡Se mueve!</text>
 </svg> 
